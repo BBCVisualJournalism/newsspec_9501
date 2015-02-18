@@ -1,0 +1,49 @@
+.nhswinter_tracker_result_infographic {
+
+  .nhswinter_tracker_attendance_dotted_view, .nhswinter_tracker_admissions_dotted_view {
+    margin-top: 30px;
+  }
+
+  .nhswinter_tracker_bar_chart {
+    text-align: center;
+
+    .nhswinter_tracker_comparison-charts {
+      
+      .axis {
+        font: 11px;
+      }
+      
+      .axis path,
+      .axis line {
+        fill: none;
+        stroke: #505050;
+        shape-rendering: crispEdges;
+      }
+      
+      .nhswinter_tracker_bar_your-hospital {
+        fill: $highlightColor;
+      }
+      .nhswinter_tracker_bar_national-average {
+        fill: $complimentaryColor;
+      }
+      .nhswinter_tracker_bar_faded {
+        opacity: 0.7;
+      }
+      
+  
+      text {
+        fill: #505050;
+        font-family: "Helvetica Neue", Helvetica, Arial, Helmet, Freesans, sans-serif;
+      }
+    }
+  }
+  
+  circle {
+    fill: $highlightColor;
+
+    .nhswinter_tracker_attendance_dotted_view_circle {
+      fill: #CCCCCC;
+    }
+  }
+  
+}

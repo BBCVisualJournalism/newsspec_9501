@@ -1,0 +1,23 @@
+.main .nhswinter_app_artificial_expander {
+
+	@import 'module/form';
+	@import 'module/branding';
+	@import 'module/infobox';
+	@import 'module/results';
+
+	.nhswinter_tracker_form_container_right * {
+		margin: 0;
+	}
+	
+	.nhswinter_tracker_results .nhswinter_tracker_result {
+		@import 'module/infographics/infographic-comparison';
+		@import 'module/infographics/performance_comparison';
+		@import 'module/infographics/graphs';
+	}
+}
+
+.ns__noJs {
+  form {
+    display: none;
+  }
+}

@@ -1,0 +1,115 @@
+/*
+$path: '/news/special/2013/newsspec_6185/img';
+$path: 'http://news.bbcimg.co.uk/news/special/2013/newsspec_6185/img';
+
+replaced the old blue with the new teal: #007f7f
+The light teal in bar chart is: #88c3c3
+*/
+$path: "http://news.bbcimg.co.uk/news/special/2014/newsspec_9501/content/english/img";
+
+$fontSizeMobile: 16px;
+$fontSizeTablet: 18px;
+$fontSizeDesktop:16px;
+
+$defaultColor: #505050;
+$highlightColor: #ea8a42;
+$complimentaryColor: #007f7f;
+
+/* MIXINS */
+@mixin centertext {
+	text-align: center;
+	max-width: 380px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@mixin colorEffect {	
+	color: #505050;
+	transition: color 1s;
+}
+
+// Set the variable to false only if it's not already set.
+$fix-mqs: false !default;
+
+/* CSS Resetting and common classes, etc */
+.nhswinter_tracker {
+
+	font-size: $fontSizeMobile;
+	font-family: "Helvetica Neue", Helvetica, Arial, Helmet, Freesans, sans-serif;
+
+	p, h1, h2, h3, h4 {
+		font-size: 1em;
+		margin-bottom: 8px;
+	}
+
+	h3 {
+		padding: 10px;
+	}
+
+	ul.nhswinter_tracker_list li {
+		background-image: none;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.nhswinter_tracker_h2 {
+		font-size: 24px;
+		line-height: 30px;
+		color: #505050;
+		font-weight: bold;
+		margin-bottom: 16px;
+	}
+
+	.description__text {
+		color: #505050;
+		font-family: Arial, Helmet, Freesans, sans-serif;
+	}
+
+	.description__text--bold {
+		font-weight: bold;
+	}
+
+	.nhswinter_tracker_text_article {
+		max-width: 640px;
+	}
+
+	.nhswinter_tracker_text_article *{
+		color: #505050;
+	}
+
+	.nhswinter_tracker_clear {
+		clear: both;
+	}
+}
+.column--secondary /* suppress RHS column on mobile */ {
+	display: none;
+}
+
+/* Setting default font size for viewing platform */
+@include respondMinMax(0px, 675px) {
+	.nhswinter_tracker {
+		font-size: $fontSizeMobile;
+	}
+}
+@include respondMinMax(676px, 975px) {
+	.nhswinter_tracker {
+		font-size: $fontSizeTablet;
+	}
+}
+@include respondMinMax(976px, false) {
+	.nhswinter_tracker {
+		font-size: $fontSizeDesktop;
+	}
+	/* Can't set width on newsspec_6185 because that would mess with the rhs small module */
+	.nhswinter_app_artificial_expander {
+		width: 976px;
+	}
+	ul.nhswinter_tracker_list li {
+		display: inline-block;
+		width: 31%;
+	}
+	.nhswinter_tracker_clear{
+		clear: both;
+	}
+}

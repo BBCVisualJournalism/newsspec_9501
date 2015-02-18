@@ -1,0 +1,138 @@
+<div class="nhswinter_app_artificial_expander">
+    <div id="nhswinter_app" class="nhswinter_tracker ns__noJs">
+
+        <div class="nhswinter_tracker_form_parameters">
+            <p id="nhswinter_tracker_postcode_value"></p>
+            <p id="nhswinter_tracker_hospital_value"></p>
+        </div>
+
+        <div class="nhswinter_tracker_form_container">
+            <div class="nhswinter_tracker_form_container_left">
+
+                <!-- england figures -->
+                <div class="nhswinter_tracker_overview">
+                    <h2 class="nhswinter_tracker_h2">This week's figures for England:</h2>
+                    <ul class="nhswinter_tracker_list">
+                        <li>
+                            <span class="nhswinter_tracker_overview_result nhswinter_tracker_overview_result_4">
+                                95%
+                                <div class="nhswinter_tracker_overview_arrow nhswinter_tracker_overview_no_change"></div>
+                            </span>
+                            <p>target for patients seen in 4 hours at A&amp;E</p>
+                        </li>
+                        <li>
+                            <span class="nhswinter_tracker_overview_result nhswinter_tracker_overview_result--target">
+                                <%= include('includes/app/nations/patientsSeenIn4HrsMajorAE.tmpl') %>
+                                <div class="nhswinter_tracker_overview_arrow nhswinter_tracker_overview_arrow_<%= include('includes/app/nations/dirPatientsSeenIn4HrsMajorAE.tmpl') %>"></div>
+                            </span>
+                            <p>patients seen in 4 hours at major A&amp;E hospitals</p>
+                        </li>
+                        <li class="nhswinter_tracker_list_item_specialcase">
+                            <span class="nhswinter_tracker_overview_result nhswinter_tracker_overview_result_2">
+                                <%= include('includes/app/nations/patientsSeenIn4HrsAllAE.tmpl') %>
+                                <div class="nhswinter_tracker_overview_arrow nhswinter_tracker_overview_arrow_<%= include('includes/app/nations/dirPatientsSeenIn4HrsAllAE.tmpl') %>"></div>
+                            </span>
+                            <p>patients seen in 4 hours at all A&amp;E units</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="nhswinter_tracker_text_intro description__text description__text--bold"><%= text_introduction_1 %></p>
+                <p class="nhswinter_tracker_text_intro description__text"><%= text_introduction_2 %></p>
+
+                <%= include('includes/app/form.tmpl') %>
+
+                <div class="nhswinter_tracker_overview">
+                    <h2 class="nhswinter_tracker_h2">Rest of UK: Four-hour performance in all A&amp;Es</h2>
+                    <ul class="nhswinter_tracker_list">
+                        <li>
+                            <span class="nhswinter_tracker_overview_result nhswinter_tracker_overview_result--target">
+                                76.7%
+                                <div class="nhswinter_tracker_overview_arrow nhswinter_tracker_overview_arrow_down"></div>
+                            </span>
+                            <p><a href="http://www.bbc.co.uk/news/health-30415390" class="overview__nav">Northern Ireland</a> (Dec)<br/>Target is 95%</p>
+                        </li>
+                        <li>
+                            <span class="nhswinter_tracker_overview_result nhswinter_tracker_overview_result--target">
+                                89.9%
+                                <div class="nhswinter_tracker_overview_arrow nhswinter_tracker_overview_arrow_up"></div>
+                            </span>
+                            <p><a href="http://www.bbc.co.uk/news/health-30414699" class="overview__nav">Scotland</a> (Dec)<br/>Target is 98%</p>
+                        </li>
+                        <li class="nhswinter_tracker_list_item_specialcase">
+                            <span class="nhswinter_tracker_overview_result nhswinter_tracker_overview_result--target">
+                                82.3%
+                                <div class="nhswinter_tracker_overview_arrow nhswinter_tracker_overview_arrow_up"></div>
+                            </span>
+                            <p><a href="http://www.bbc.co.uk/news/health-30414705" class="overview__nav">Wales</a> (Dec)<br/>Target is 95%</p>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="nhswinter_tracker_form_container_right">
+                <div class="nhswinter_tracker_branding">
+                    <img class="no-replace" src="<%= pathStatic %>/<%= vocab_dir %>/img/nhs_winter.png" />
+                    <%= include('includes/app/get_involved.tmpl') %>
+                </div>
+
+                <div class="nhswinter_tracker_cta">
+                    <h1>SCROLL DOWN</h1>
+                    <p>for more figures on trolley waits, queuing ambulances and blocked beds</p>
+                    <div class="nhswinter_tracker_cta_arrow"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nhswinter_tracker_clear"></div>
+
+        <div class="nhswinter_tracker_results">
+
+            <div class="nhswinter_tracker_result_header">
+
+                <p class="nhswinter_tracker_result_header_intro">
+                    <span>This week at</span>
+                    <span class="nhswinter_tracker_infobox_wrapper">
+                        <span class="nhswinter_tracker_info nhswinter--first_ibtn"><%= infoboxes_info0 %></span>
+                        <p class="nhswinter_tracker_result_header_name"><!-- Populate with JS --></p>
+                    </span>
+                </p>
+
+                <p class="nhswinter_tracker_result_header_source"><!-- Populate with JS --></p>
+            </div>
+
+            <ul class="nhswinter_tracker_list">
+                <!-- results_patients_seen_in_4hrs.tmpl -->
+                <%= include('includes/app/results_patients_seen_in_4hrs.tmpl') %>
+                <!-- results_attendance_at_ae.tmpl -->
+                <%= include('includes/app/results_attendance_at_ae.tmpl') %>
+                <!-- results_emergency_admissions.tmpl -->
+                <%= include('includes/app/results_emergency_admissions.tmpl') %>
+                <!-- results_4hr_wait_before_admission.tmpl  -->
+                <%= include('includes/app/results_4hr_wait_before_admission.tmpl') %>
+                
+                <!-- results_trolley_wait.tmpl -->
+                <!-- %= include('includes/app/results_trolley_wait.tmpl') % -->
+                
+                <%= include('includes/app/results_ambulances_queuing.tmpl') %>
+                <%= include('includes/app/results_cancelled_operations.tmpl') %>
+                <%= include('includes/app/results_beds_blocked.tmpl') %>
+                <%= include('includes/app/results_bed_days_lost_to_norovirus.tmpl') %>
+            </ul>
+
+            <a class="nhswinter__reset--btn" href="#">Return to article</a>
+        </div>
+
+        <div class="nhswinter_tracker_text_article">
+            <h2 class="nhswinter_tracker_h2"><%= text_header %></h2>
+            <p class="description__text description__text--bold"><%= text_subheader %></p>
+            <p class="description__text"><%= text_article_p1 %></p>
+            <p class="description__text"><%= text_article_p2 %></p>
+            <p class="description__text"><%= text_article_p3 %></p>
+        </div>
+
+        <div class="tempShareToolsHolder"></div>
+
+    </div>
+</div>

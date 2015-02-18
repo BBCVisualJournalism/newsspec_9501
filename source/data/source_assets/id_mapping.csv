@@ -1,0 +1,200 @@
+map_code,map_name,map_trust_code
+RGT01,Addenbrooke's,RGT
+REM21,Aintree University Hospital,REM
+RCF22,Airedale General Hospital,RCF
+RBS25,Alder Hey Children's NHS Foundation Trust,RBS
+RWP01,Alexandra Hospital,RWP
+RBL14,Arrowe Park Hospital,RBL
+RVL01,Barnet Hospital,RAL
+RFFAA,Barnsley Hospital,RFF
+RDDH0,Basildon University Hospital,RDD
+RN506,Basingstoke and North Hampshire Hospital,RN5
+RP5BA,Bassetlaw Hospital,RP5
+RC110,Bedford Hospital South Wing,RC1
+RQ301,Birmingham Children,RQ3
+RXL01,Blackpool Victoria Hospital,RXL
+RAE01,Bradford Royal Infirmary,RAE
+RA708,Bristol Eye Hospital,RA7
+RA723,Bristol Royal Hospital For Children,RA7
+RA701,Bristol Royal Infirmary,RA7
+RQ8L0,Broomfield Hospital,RQ8
+RWY02,Calderdale Royal Hospital,RWY
+RV831,Central Middlesex Hospital,RV8
+RYJ02,Charing Cross Hospital,RYJ
+RVLC7,Chase Farm Hospital,RVL
+RQM01,Chelsea and Westminster Hospital,RQM
+RTE01,Cheltenham General Hospital,RTE
+RFSDA,Chesterfield Royal Hospital,RFS
+RXN01,Chorley and South Ribble Hospital,RXN
+RXK02,City Hospital,RXK
+RDEE4,Colchester General Hospital,RDE
+RXC01,Conquest Hospital,RXC
+RJR05,Countess Of Chester Hospital,RJR
+RWDAA,County Hospital Louth,RWD
+RJ611,Croydon University Hospital,RJ6
+RNLAY,Cumberland Infirmary,RNL
+RN707,Darent Valley Hospital,RN7
+RXPDA,Darlington Memorial Hospital,RXP
+RK950,Derriford Hospital,RK9
+RXF10,Dewsbury and District Hospital,RXF
+RJL30,"Diana, Princess Of Wales Hospital",RJL
+RP5DR,Doncaster Royal Infirmary,RP5
+RBD01,Dorset County Hospital,RBD
+RC368,Ealing Hospital,R1K
+RTP04,East Surrey Hospital,RTP
+RXC02,Eastbourne District General Hospital,RXC
+RVR50,Epsom Hospital,RVR
+RW601,Fairfield General Hospital,RW6
+RVJ20,Southmead Hospital,RVJ
+RTR45,Friarage Hospital Site,RTR
+RDU01,Frimley Park Hospital,RDU
+RTXBU,Furness General Hospital,RTX
+RLT01,George Eliot Hospital - Acute Services,RLT
+RTE03,Gloucestershire Royal Hospital,RTE
+RR105,Good Hope Hospital,RR1
+RWDLP,Grantham and District Hospital,RWD
+RYJ03,Hammersmith Hospital,RYJ
+RCD01,Harrogate District Hospital,RCD
+RR101,Heartlands Hospital,RR1
+RTFDR,Hexham General Hospital,RTF
+RAS01,Hillingdon Hospital,RAS
+RQQ31,Hinchingbrooke Hospital,RQQ
+RQXM1,Homerton University Hospital,RQX
+RTH05,Horton General Hospital,RTH
+RWY01,Huddersfield Royal Infirmary,RWY
+RWA01,Hull Royal Infirmary,RWA
+RGP75,James Paget University Hospital,RGP
+RTH08,John Radcliffe Hospital,RTH
+RVVKC,Kent and Canterbury Hospital,RVV
+RNQ51,Kettering General Hospital,RNQ
+RF4DG,King George Hospital,RF4
+RJZ01,King's College Hospital (Denmark Hill),RJZ
+RK5BC,King's Mill Hospital,RK5
+RAX01,Kingston Hospital,RAX
+RR801,Leeds General Infirmary,RR8
+RWEAA,Leicester Royal Infirmary,RWE
+RBT20,Leighton Hospital,RBT
+RWDDA,Lincoln County Hospital,RWD
+RWH01,Lister Hospital,RWH
+RC971,Luton and Dunstable Hospital,RC9
+RJN71,Macclesfield District General Hospital,RJN
+RWF03,Maidstone Hospital,RWF
+RW3MR,Manchester Royal Infirmary,RW3
+RBK02,Manor Hospital,RBK
+RPA02,Medway Maritime Hospital,RPA
+RD816,Milton Keynes Hospital,RD8
+RBA11,Musgrove Park Hospital,RBA
+RL403,New Cross Hospital,RL4
+R1HNH,Newham General Hospital,R1H
+RNHB1,Newham General Hospital,R1H
+RM102,Norfolk and Norwich University Hospital,RM1
+RBZ12,North Devon District Hospital,RBZ
+RW602,North Manchester General Hospital,RW6
+RAPNM,North Middlesex University Hospital,RAP
+RTFFS,North Tyneside General Hospital,RTF
+RNS01,Northampton General Hospital (Acute),RNS
+RHQNG,Northern General Hospital,RHQ
+RV820,Northwick Park Hospital,R1K
+RX1RA,Nottingham University Hospitals NHS Trust - Queen's Medical Centre Campus,RX1
+RVY02,Ormskirk and District General Hospital,RVY
+RGN80,Peterborough City Hospital,RGN
+RWDLA,Pilgrim Hospital,RWD
+RXF05,Pinderfields Hospital,RXF
+RXF03,Pontefract Hospital,RXF
+RD304,Poole Hospital,RD3
+RQWG0,Princess Alexandra Hospital,RQW
+RXH09,Princess Royal Hospital,RXH
+RHU03,Queen Alexandra Hospital,RHU
+RR7EN,Queen Elizabeth Hospital,RR7
+RRK15,Queen Elizabeth Hospital Birmingham,RRK
+RYQ50,Queen Elizabeth Hospital Woolwich,RJ2
+RWH20,Queen Elizabeth I I Hospital,RWH
+RVV09,Queen Elizabeth The Queen Mother Hospital,RVV
+RF4QH,Queen's Hospital,RF4
+RJF02,"Queen's Hospital, Burton Upon Trent",RJF
+RFRPA,Rotherham Hospital,RFR
+RRF02,Royal Albert Edward Infirmary,RRF
+RXH06,Royal Alexandra Children's Hospital,RXH
+RHW01,Royal Berkshire Hospital,RHW
+RXR20,Royal Blackburn Hospital,RXR
+RMC01,Royal Bolton Hospital,RMC
+RDZ20,Royal Bournemouth General Hospital,RDZ
+REF12,Royal Cornwall Hospital (Treliske),REF
+RTGFG,Royal Derby Hospital,RTG
+RH801,Royal Devon and Exeter Hospital (Wonford),RH8
+RK953,Royal Eye Infirmary,RK9
+RAL01,Royal Free Hospital,RAL
+RN541,Royal Hampshire County Hospital,RN5
+RTX02,Royal Lancaster Infirmary,RTX
+RW603,Royal Oldham Hospital,RW6
+RXN02,Royal Preston Hospital,RXN
+RXWAS,Royal Shrewsbury Hospital,RXW
+RA201,Royal Surrey County Hospital,RA2
+RXH01,Royal Sussex County Hospital,RXH
+RD130,Royal United Hospital,RD1
+RNA01,Russells Hall Hospital,RNA
+RM301,Salford Royal,RM3
+RNZ02,Salisbury District Hospital,RNZ
+RXK01,Sandwell General Hospital,RXK
+RCBCA,Scarborough Hospital,RCB
+RJL32,Scunthorpe General Hospital,RJL
+RCUEF,Sheffield Children's Hospital,RCU
+RWDLB,Skegness & District General Hospital,RWD
+RR109,Solihull Hospital,RR1
+RE9GA,South Tyneside District Hospital,RE9
+RHM01,Southampton General Hospital,RHM
+RAJ01,Southend Hospital,RAJ
+RVY01,Southport and Formby District General Hospital,RVY
+RJ701,St George's Hospital (Tooting),RJ7
+RVR05,St Helier Hospital,RVR
+RR813,St James's Hospital,RR8
+R1F01,St Mary's Hospital,R1F
+RYJ01,St Mary's Hospital (HQ),RYJ
+RTK01,St Peter's Hospital,RTK
+RYR16,St Richard's Hospital,RYR
+RJ122,St Thomas',RJ1
+RJD01,Stafford Hospital,RJD
+RWJ09,Stepping Hill Hospital,RWJ
+RXQ02,Stoke Mandeville Hospital,RXQ
+RLNGL,Sunderland Royal Hospital,RLN
+RXH07,Sussex Eye Hospital,RXH
+RVR06,Sutton Hospital,RVR
+RMP01,Tameside General Hospital,RMP
+RLQ01,"The County Hospital, Wye Valley NHS Trust",RLQ
+RN325,The Great Western Hospital,RN3
+RGQ02,The Ipswich Hospital,RGQ
+RTRAT,The James Cook University Hospital,RTR
+RXWAT,The Princess Royal Hospital,RXW
+RCX70,The Queen Elizabeth Hospital,RCX
+RQ617,The Royal Liverpool University Hospital,RQ6
+R1H12,The Royal London Hospital,R1H
+RTD02,The Royal Victoria Infirmary,RTD
+RWFTW,The Tunbridge Wells Hospital,RWF
+RKEQ4,The Whittington Hospital,RKE
+RCB55,The York Hospital,RCB
+RA901,Torbay Hospital,RA9
+RW3TR,Trafford General Hospital,RW3
+RRV03,University College Hospital,RRV
+RKB01,University Hospital (Coventry),RKB
+RJ224,University Hospital Lewisham,RJ2
+RXPCP,University Hospital Of North Durham,RXP
+RJEHQ,Royal Stoke University Hospital,RJE
+RVWAE,University Hospital Of North Tees,RVW
+RTFED,Wansbeck Hospital,RTF
+RWWWH,Warrington Hospital,RWW
+RJC02,Warwick Hospital,RJC
+RWG02,Watford General Hospital,RWG
+REF01,West Cornwall Hospital (Penzance),REF
+RNLBX,West Cumberland Hospital,RNL
+RFW01,West Middlesex University Hospital,RFW
+RGR50,West Suffolk Hospital,RGR
+RYJ07,Western Eye Hospital,RYJ
+RA301,Weston General Hospital,RA3
+RD750,Wexham Park Hospital,RDU
+R1HKH,Whipps Cross University Hospital,R1H
+RBN01,Whiston Hospital,RBN
+RVV01,William Harvey Hospital (Ashford),RVV
+RWP50,Worcestershire Royal Hospital,RWP
+RYR18,Worthing Hospital,RYR
+RM202,Wythenshawe Hospital,RM2
+RA430,Yeovil District Hospital,RA4

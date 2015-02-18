@@ -1,0 +1,195 @@
+// $font-color: #505050;
+// $gutter: 0.5em;
+// $twitter-color: #47c7fa;
+// $facebook-color: #3c5a98;
+// $email-color:#615f5d;
+
+// #nhswinter_tracker_share_module {
+//     /* padding-top: 20px;*/
+//     padding-top: 0;
+//     padding-bottom: 5px;
+
+//     p {
+//         display: none;
+//     }
+// }
+
+// .ns__share {
+//     overflow: hidden;
+//     clear: both;
+//     padding-bottom: 0;
+//     zoom: 1;
+
+// .share__title {
+//     font-size: 24px;
+
+//     a {
+//         letter-spacing: normal;
+//         font-weight: normal;
+//         font-size: .5em;
+//     }
+// }
+
+// .share__tools {
+//     margin: $gutter (-$gutter/2);
+//     overflow: hidden;
+//     zoom: 1;
+// }
+// ul li.share__tool  {
+// 	background-image: none;
+// 	padding: 0;
+// 	margin-right: $gutter / 2;
+//     margin-left: $gutter / 2;
+// }
+// .share__tool {
+//     float: left;
+//     margin-bottom: $gutter;
+//     width: 100%;
+//     padding-left: $gutter / 2;
+//     padding-right: $gutter / 2;
+
+//     box-sizing: border-box;
+
+//     a {
+//         background-color: #615f5d;
+//         display: block;
+//         height: 40px;
+//         overflow: hidden;
+//         text-align: center;
+//         font-size: 16px;
+//         line-height: 40px;
+//         font-weight: bold;
+//         color: #fff;
+
+//         span {
+//             display: block;
+//         }
+//     }
+// }
+
+// %share__tool__sprite {
+//     a {
+//         background: $email-color url($path + '/ns-share-sprite.png') no-repeat;
+//         span {
+//             text-indent: -5000px;
+//         }
+//     }
+
+// }
+
+// .share__tool--facebook {
+//     @extend %share__tool__sprite;
+
+//     a {
+//         background-color: $facebook-color;
+//         background-position: center -106px;
+//     }
+//     a:hover{
+//     	background-color: lighten( $facebook-color, 10% )
+//     }
+// }
+
+// .share__tool--twitter {
+//     @extend %share__tool__sprite;
+
+//     a {
+//         background-color: $twitter-color;
+//         background-position: center -148px;
+//     }
+//     a:hover{
+//     	background-color: lighten( $twitter-color, 10% )
+//     }
+// }
+
+// .share__tool--email {
+//     a {
+//     	text-decoration: none;
+//         padding-top: 8px;
+//         padding-bottom: 4px;
+//         height: 28px;
+//         line-height: 28px;
+
+//         span {
+//             display: inline;
+//             color: #fff;
+//             font-size: 1em;
+//             font-weight: bold;
+//             padding: 3px 0 3px 28px;
+//             background: transparent url($path + '/ns-share-sprite.png') 0 2px no-repeat;
+//         }
+//     }
+
+//     a:hover {
+//     	text-decoration: none;
+//     	background-color: lighten( $email-color, 10% )
+//     }
+// }
+
+// @media (min-width: 320px) {
+//     .share__tool {
+//         width: 30%;
+//     }
+// }
+// }
+
+// @include respond-to(desktop) {
+//     .ns__share {
+//         .share__title{
+//             padding-top: 10px;
+//             padding-right: 16px;
+//             float:left;
+//             color: $font-color;
+//         }
+//         .share__tools{
+//             padding-top: 6px;
+//             margin: 0;
+//             float:left;
+//         }
+//         .share__tool{
+//             width: 25px;
+//             a {
+//                 height: 25px;
+//             }
+//         }
+//         .share__tool--facebook {
+//             a {
+//                 background-position: 0 -42px;
+//             }
+//             a:hover {
+//                 background-color: $facebook-color;
+//                 background-position: 0 -67px;
+//             }
+//         }
+//         .share__tool--twitter {
+//             a {
+//                 background-position: -24px -42px;
+//             }
+//             a:hover{
+//                 background-color: $twitter-color;
+//                 background-position: -24px -67px;
+//             }
+//         }
+//         .share__tool--email {
+//             width: 100px;
+//             a {
+//                 text-decoration: none;
+//                 padding-top: 0;
+//                 padding-bottom: 0;
+//                 height: 25px;
+//                 line-height: 25px;
+
+
+//                 span {
+//                     font-size: 0.95em;
+//                     font-weight: normal;
+//                     background-position: 0 3px;
+//                 }
+
+//             }
+//             a:hover {
+//                 text-decoration: none;
+//                 background-color: lighten( $email-color, 10% )
+//             }
+//         }
+//     }
+// }

@@ -1,0 +1,10 @@
+<form class="nhswinter_tracker_form" method="get" action="http://www.bbc.co.uk/news/health-25055444">
+	<label for="nhswinter_tracker_form_input_postcode"><%= form_cta %></label> 
+	<input id="nhswinter_tracker_form_input_postcode" class="nhswinter_tracker_form_input_postcode" name="postcode" type="text" /> <!-- OR
+	<input id="nhswinter_tracker_form_input_hospital" class="nhswinter_tracker_form_input_hospital" name="hospital" type="hidden" disabled="disabled" /> -->
+	<fieldset class="nhswinter_tracker_form_select_nearest_hospital_hide">
+		<select id="nhswinter_tracker_form_select_nearest_hospital" name="nearest_hospital"></select>
+	</fieldset>
+	<button><%= form_button %></button>
+	<div class="nhswinter_tracker_form_error"></div>
+</form>

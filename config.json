@@ -1,0 +1,11 @@
+{
+  "debug":          "false",
+  "whichEnv":       "live",
+  "project_number": "9501",
+  "year":           "2014",
+  "imageWidths":    ["320", "640", "1024"],
+  "services": {
+    "default": "english",
+    "others": ["mundo", "arabic"]
+  }
+}

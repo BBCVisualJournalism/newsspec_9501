@@ -1,0 +1,25 @@
+{
+    "patients_waiting_over_4hrs_tobe_admitted": [],
+    "trolley_wait_4_to_12hrs": [],
+    "total_ambulances_queuing": [],
+    "ambulances_queuing": [],
+    "planned_operations": [],
+    "beds_blocked": [],
+    "beds_closed_dueto_norovirus": [],
+
+    "RE9": {
+        "name": "Full name of the trust",
+        "attendances_at_ane": [],
+        "emergency_admissions": [],
+        "patients_waiting_over_4hrs_tobe_admitted": [],
+        
+        "patients_seen_in_four_hours": [],
+        "trolley_wait_4_to_12hrs": [],
+        "ambulances_queuing": [],
+        "planned_operations": [],
+        "beds_blocked": [],
+        "beds_closed_dueto_norovirus": []
+    },
+
+    "week_performance_chart": []
+}

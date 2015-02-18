@@ -1,0 +1,47 @@
+.nhswinter_tracker_key_wrapper {
+
+	background-color: #E8E8E8;
+
+	.nhswinter_tracker_key {
+		font-size: 1em;
+		line-height: 1.5em;
+		font-weight: bold;
+		display: inline-block;
+		width: 49%;
+		text-align: center;
+	}
+
+	.nhswinter_tracker_key_left {
+		color: $highlightColor;
+	}
+
+	.nhswinter_tracker_key_right {
+		color: $complimentaryColor;
+	}
+}
+
+@include respondMinMax(676px, false) {
+	.nhswinter_tracker_key_wrapper {
+		.nhswinter_tracker_key {
+			font-size: 1.389em;
+		}
+	}
+	.nhswinter_tracker_fixed {
+		position: fixed;
+		top: 138px;
+		max-width: 976px;
+		width: 100%;
+		z-index: 3;
+	}
+
+	.nhswinter_tracker_fixed {
+		/* Mobile site seems to need more of a push, otherwise comparison falls below "Hospital Name" fixed position */
+		top: 154px;
+	}
+}
+
+@include respondMinMax(976px, false) {
+	.nhswinter_tracker_key_wrapper .nhswinter_tracker_key {
+		font-size: 1.588em;
+	}
+}

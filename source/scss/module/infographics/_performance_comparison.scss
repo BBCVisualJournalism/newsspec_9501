@@ -1,0 +1,139 @@
+.nhswinter_tracker_result_infographic {
+  position: relative;
+  
+  .nhswinter_tracker_chart_label {
+    height: 94px;
+    position: relative;
+    
+    .nhswinter_tracker_chart_label__value{
+      font-weight: bold;
+    }
+    
+    span {
+      display: block;
+      padding: 0 8px;
+    }
+    div {
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 100px;
+      
+    }
+    .nhswinter_tracker_chart_label__pointer {
+      background-repeat: no-repeat;
+      background-image: url($path + '/new_sprite_mobile.png');
+      background-position: -49px -1025px;
+      height: 45px;
+      padding: 0;
+      position: absolute;
+      bottom: 0;
+      left: 100px;
+      width: 24px;
+    }
+    
+  }
+  
+  .nhswinter_tracker_chart_graph{
+    height: 100px;
+    margin: 0 16px;
+    
+    .performance_bar {
+      fill: $complimentaryColor;
+      stroke: #ffffff;
+    }
+    
+    .below_target {
+      fill: #88c3c3;
+    }
+    .nhswinter_tracker_chart--active_bar {
+      fill: $highlightColor;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+    }
+    .active_chart {
+      fill: $highlightColor;
+      opacity: 0.7;
+      filter: alpha(opacity=70);
+    }
+    text {
+        fill: $complimentaryColor;
+        font-family: "Helvetica Neue", Helvetica, Arial, Helmet, Freesans, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+    }
+  }
+  
+  .nhswinter_tracker_chart_key {
+    padding: 12px 0;
+    text-align: center;
+    span {
+      display: inline-block;
+      margin-right: 8px;
+      padding-left: 8px;
+    }
+    .nhswinter_tracker_chart_key_above_target {
+      margin-top: 10px;
+      border-left: 16px solid $complimentaryColor;
+    }
+    .nhswinter_tracker_chart_key_below_target {
+      border-left: 16px solid #88c3c3;
+    }
+  }
+
+  .nhswinter_tracker__tooltip {
+      background-color: #ffffff;
+      position: absolute;
+      border: 1px solid #e8e8e8;
+      filter: alpha(opacity=95);
+      opacity: 0.95;
+      padding: 10px;
+      width: 250px;
+      left: 687px;
+      top: 78px;
+
+      .nhswinter_tracker__tooltip_info {
+          font-size: 16px;
+          margin: 0;
+          padding: 0 0 5px 0;
+      }
+
+      .nhswinter_tracker__tooltip_info--figures {
+          font-size: 14px;
+          span {
+              font-weight: bold;
+          }
+      }
+
+
+  }
+
+  .nhswinter_tracker__tooltip--visible {
+    display: block;
+  }
+
+  .nhswinter_tracker__tooltip--hidden {
+    display: none;
+  }
+
+}
+
+@include respondMinMax(976px, false) {
+  .nhswinter_tracker_result_infographic {
+    .nhswinter_tracker_chart_label {
+      
+      span {
+        padding: 3px 8px;
+      }
+      .nhswinter_tracker_chart_label__pointer {
+        background-image: url($path + '/new_sprite_desktop.png');
+        background-position: -49px -1168px;
+        height: 50px;
+      }
+      
+    }
+    .nhswinter_tracker_chart_graph{
+      height: 200px;
+    }
+  }
+}

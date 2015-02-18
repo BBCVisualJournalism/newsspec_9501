@@ -1,0 +1,113 @@
+.nhswinter_tracker_infobox_wrapper {
+	position: relative;
+}
+
+.nhswinter_tracker_info {
+	position: absolute;
+	top: 2px;
+	left: 100%;
+	.nhswinter_tracker_info_link {
+		background-image: url($path + '/new_sprite_mobile.png');
+		background-position: -41px -1107px;
+		padding: 20px;
+		font-size: 0;
+	}
+}
+
+
+
+.nhswinter_tracker_info_container {
+	position: relative;
+	.nhswinter_tracker_info_content_active {
+		display: inline-block;
+		width: 300px;
+		z-index: 2;
+		font-size: 14px;
+		font-weight: normal;
+		text-align: left;
+		background-color: white;
+		border: 1px solid black;
+		padding: 0;
+		position: absolute;
+		top: 35px;
+		left: -10px;
+	}
+}
+		
+	
+
+.nhswinter_tracker_info_content {
+	display: none;
+	p {
+		position: relative;
+		padding: 8px 15px 8px;
+	}
+}
+
+.nhswinter_tracker_info_close {
+	position: absolute;
+	top: -10px;
+	right: 2px;
+
+	padding: 10px;
+	background-image: url($path + '/new_sprite_desktop.png');
+	background-position: -53px -1452px;
+}
+	
+
+
+@include respondMinMax(0px, 675px) {
+
+	.nhswinter_tracker_infobox_wrapper .nhswinter_tracker_info {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+
+	.nhswinter_tracker_info_link {
+		display: block;
+		background-repeat: no-repeat;
+		width: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nhswinter_tracker_info_container {
+		.nhswinter_tracker_info_content_active {
+			display: block;
+			position: static;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}		
+}
+@include respondMinMax(676px, 975px){
+	.nhswinter--first_ibtn{
+		position: absolute;
+		top: -12px;
+		left: 20px;
+	}
+	.nhswinter_tracker_info_container {
+		.nhswinter_tracker_info_content_active {
+			width: 160px;
+			top: 35px;
+			left: -15px;
+		}
+	}
+}
+@include respondMinMax(976px, false) {
+	.nhswinter_tracker_infobox_wrapper .nhswinter_tracker_info .nhswinter_tracker_info_container .nhswinter_tracker_info_link {
+			background-image: url($path + '/new_sprite_desktop.png');
+			background-position: -41px -1255px;
+	}
+	.nhswinter--first_ibtn{
+		position: absolute;
+		top: -12px;
+		left: 20px;
+	}
+	.nhswinter_tracker_info_content_active {
+		width: 160px;
+		top: 0;
+		left: 35px;
+	}
+}

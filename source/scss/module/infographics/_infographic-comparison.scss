@@ -1,0 +1,89 @@
+.nhswinter_tracker_comparison {
+
+	margin-top: 15px;
+
+	.nhswinter_tracker_comparison_text {
+		font-size: 2.813em;
+		line-height: 1.5em;
+		display: inline-block;
+		width: 50%;
+		text-align: center;
+	}
+	.nhswinter_tracker_comparison_left {
+		border-right: 1px dashed #505050;
+	}
+
+	.nhswinter_tracker_comparison_right {
+		border-left: 1px dashed #505050;
+	}
+}
+
+$arrowUpOrange: 	-50px -609px;
+$arrowUpBlue: 		-50px -742px;
+$arrowDownOrange: 	-50px -676px;
+$arrowDownBlue: 	-50px -822px;
+
+@mixin nhswinter_tracker_comparison_arrow {
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+.nhswinter_tracker_comparison_arrow_img {
+	background-image: url($path + '/new_sprite_mobile.png');
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 24px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.nhswinter_tracker_comparison_arrow_up {
+	@include nhswinter_tracker_comparison_arrow;
+	span {
+	  color: $highlightColor;
+	}
+
+	.nhswinter_tracker_comparison_arrow_img {
+		background-position: $arrowUpOrange;
+	}
+}
+
+.nhswinter_tracker_comparison_arrow_down {
+	@include nhswinter_tracker_comparison_arrow;
+	span {
+	  color: $highlightColor;
+	}
+
+	.nhswinter_tracker_comparison_arrow_img {
+		background-position: $arrowDownOrange;
+	}
+}
+
+.nhswinter_tracker_comparison_right {
+	.nhswinter_tracker_comparison_arrow_up .nhswinter_tracker_comparison_arrow_img {
+		background-position: $arrowUpBlue;
+	}
+	.nhswinter_tracker_comparison_arrow_down .nhswinter_tracker_comparison_arrow_img {
+		background-position: $arrowDownBlue;
+	}
+}
+
+.nhswinter_tracker_comparison_arrow_no_change {
+  @include nhswinter_tracker_comparison_arrow;
+
+  .nhswinter_tracker_comparison_arrow_img {
+    display: none;
+  }
+}
+
+@include respondMinMax(676px, 975px) {
+	.nhswinter_tracker_comparison .nhswinter_tracker_comparison_text {
+		font-size: 4.167em;
+	}
+}
+
+@include respondMinMax(976px, false) {
+	.nhswinter_tracker_comparison .nhswinter_tracker_comparison_text {
+		font-size: 5.625em;
+	}
+}

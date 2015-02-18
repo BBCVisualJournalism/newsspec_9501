@@ -1,0 +1,45 @@
+{
+    "weekIndex": 14,
+    "data": {
+        "week14": {
+            "weeklyAeSitrepDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/04/2015.02.08-AE0RgAD.xls",
+            "winterPressuresDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/12/DailySR-Web-file-WE-08.02.15.xlsx",
+            "barchartsDates": "2-8 Feb",
+            "patientsSeenIn4HrsMajorAE": "89.1%",
+            "dirPatientsSeenIn4HrsMajorAE": "up",
+            "patientsSeenIn4HrsAllAE": "92.9%",
+            "dirPatientsSeenIn4HrsAllAE": "up",
+            "excludedFromPerformanceChart": []
+        },
+        "week13": {
+            "weeklyAeSitrepDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/04/2015.02.01-AE1pJ0e.xls",
+            "winterPressuresDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/12/DailySR-Web-file-WE-01.02.15.xlsx",
+            "barchartsDates": "26 Jan - 1 Feb",
+            "patientsSeenIn4HrsMajorAE": "88.3%",
+            "dirPatientsSeenIn4HrsMajorAE": "down",
+            "patientsSeenIn4HrsAllAE": "92.3%",
+            "dirPatientsSeenIn4HrsAllAE": "down",
+            "excludedFromPerformanceChart": []
+        },
+        "week12": {
+            "weeklyAeSitrepDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/04/2015.01.25-AE4w3Rl.xls",
+            "winterPressuresDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/12/DailySR-Web-file-WE-25.01.15.xlsx",
+            "barchartsDates": "19-25 Jan",
+            "patientsSeenIn4HrsMajorAE": "89.4%",
+            "dirPatientsSeenIn4HrsMajorAE": "up",
+            "patientsSeenIn4HrsAllAE": "93.0%",
+            "dirPatientsSeenIn4HrsAllAE": "up",
+            "excludedFromPerformanceChart": []
+        },
+        "week11": {
+            "weeklyAeSitrepDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/04/2015.01.18-AElYCTq.xls",
+            "winterPressuresDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/12/DailySR-Web-file-WE-18.01.15.xlsx",
+            "barchartsDates": "19-25 Jan",
+            "patientsSeenIn4HrsMajorAE": "89.4%",
+            "dirPatientsSeenIn4HrsMajorAE": "up",
+            "patientsSeenIn4HrsAllAE": "93.0%",
+            "dirPatientsSeenIn4HrsAllAE": "up",
+            "excludedFromPerformanceChart": ["RDE"]
+        }
+    }
+}

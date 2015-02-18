@@ -1,0 +1,287 @@
+.nhswinter_tracker_form_container {
+	.nhswinter_tracker_form_container_left {
+
+		.nhswinter_tracker_overview {
+			margin-top: 19px;
+
+			ul li {
+				vertical-align: top;
+				margin-right: 15px;
+
+				.nhswinter_tracker_overview_result {
+					display: block;
+					font-weight: bold;
+					font-size: 30px;
+					line-height: 50px;
+					height: 50px;
+					color: $highlightColor;
+
+					padding-left: 58px;
+					background-image: url($path + '/new_sprite_mobile.png');
+					background-repeat: no-repeat;
+					
+				}
+				.nhswinter_tracker_overview_result--target {
+					background-position: -40px -200px;
+				}
+
+				.nhswinter_tracker_overview_result_2 {
+					background-position: -40px -200px;
+				}
+
+				.nhswinter_tracker_overview_result_3 {
+					background-position: -25px -305px;
+				}
+
+				.nhswinter_tracker_overview_result_4 {
+					background-position: -40px -1449px;
+				}
+
+				.nhswinter_tracker_overview_arrow {
+					background-image: url($path + '/new_sprite_mobile.png');
+					width: 31px;
+					height: 28px;
+					float: right;
+					margin-top: 11px;
+				}
+				.nhswinter_tracker_overview_arrow_up {
+					background-position: -46px -892px;
+				}
+
+				.nhswinter_tracker_overview_arrow_down {
+					background-position: -48px -1398px;
+				}
+
+				p {
+					margin-top: 9px;
+					color: #505050;
+				}
+
+				.overview__nav {
+					color: #007f7f;
+					font-weight: bold;
+					text-decoration: none;
+				}
+
+				.nhswinter_tracker_overview_result--ambulances {
+					padding-left: 75px;
+				}
+			}
+			/* This is the ambulance item */
+			.nhswinter_tracker_list_item_specialcase {
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+
+.nhswinter_tracker_form {
+	font-size: 16px;
+	color: white;
+	background-color: $complimentaryColor;
+	max-width: 100%;
+	margin: 0;
+	padding: 17px;
+
+	label {
+		color: white;
+		display: block;
+		padding-bottom: 17px;
+	}
+
+	input {
+		height: 24px;
+		color: #505050;
+		padding: 0 5px;
+		margin: 10px 0;
+		float: none;
+		font-size: 16px;
+		display: block;
+		width: 90%;
+	}
+	
+	fieldset {
+		width: auto;
+		clear: none;
+		border: none;
+
+	    select {
+	      height: 24px;
+	      color: #505050;
+	      padding: 0 5px;
+	      float: none;
+	      font-size: 16px;
+	      width: 90%;
+	    }
+	    
+	}
+	.nhswinter_tracker_form_select_nearest_hospital_hide{
+		display: none;
+	}
+
+	button {
+		border: none;
+		cursor: pointer;
+		height: 28px;
+		color: #505050;
+		padding: 6px;
+		margin-top: 10px;
+		background-color: white;
+		font-weight: bold;
+		line-height: 12px;
+		float: none;
+		background-image: none;
+	}
+}
+
+.nhswinter_tracker_branding {
+	width: 305px;
+}
+
+.nhswinter_tracker_form_error {
+	display: none;
+	color: $highlightColor;
+	font-weight: bold;
+	padding: 15px 0 0 0;
+}
+
+.nhswinter_tracker_form_parameters {
+	display: none;
+}
+
+@include respondMinMax(0px, 623px) {
+	.nhswinter_tracker_form_container {
+		.nhswinter_tracker_form_container_left {
+			.nhswinter_tracker_overview ul {
+				
+				max-width: 450px;
+				margin-left: auto;
+				margin-right: auto;
+
+				li {
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+		.nhswinter_tracker_form_container_right {
+			display: none;
+		}
+	}
+
+	.nhswinter_tracker_form button {
+		margin-top: 10px;
+	}
+}
+
+@include respondMinMax(624px, 975px) {
+
+	.nhswinter_tracker_form_container {
+		.nhswinter_tracker_form_container_left .nhswinter_tracker_overview ul li {
+			width: 31.15%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.nhswinter_tracker_form_container_right {
+			display: none;
+		}
+	}
+
+	.nhswinter_tracker_form {
+		input {
+			display: inline-block;
+			margin: 0 5px;
+
+			&.nhswinter_tracker_form_input_postcode {
+				height: 28px;
+				width: 150px;
+				float: left;
+				border: none;
+			}
+
+			&.nhswinter_tracker_form_input_hospital {
+				width: 300px;
+			}
+		}
+		
+		fieldset {
+			/*  margin-top: 16px; */
+
+			float: left;
+			margin-right: 20px;
+
+			  label {
+			    display: inline-block;
+			    width: 211px;
+			  }
+	      select {
+	        width: 300px;
+	        height: 30px;
+			-webkit-appearance: menulist-button;
+     		 }
+		}
+
+		button {
+			margin: 0;
+		}
+	}
+}
+
+@include respondMinMax(624px, false) {
+
+	.nhswinter_tracker_form_container--nations {
+		.nhswinter_tracker_form_container_left .nhswinter_tracker_overview ul .nhswinter_tracker_overview_nation {
+			width: 31%;
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.nhswinter_tracker_form_container_right {
+			display: none;
+		}
+	}
+
+	.nhswinter_tracker_form_container--nations {
+		.nhswinter_tracker_form_container_left {
+			float: left;
+			max-width: 610px;
+			width: 100%;
+		}
+		.nhswinter_tracker_form_container_right {
+			display: none;
+		}
+	}
+	.nhswinter_tracker_overview_nation {
+		display: inline-block;
+		max-width: 31%;
+	}
+
+	.nhswinter_tracker--nations {
+		width: 624px;
+	}
+}
+
+@include respondMinMax(976px, false) {
+	.nhswinter_tracker_form_container {
+		.nhswinter_tracker_form_container_left {
+			float: left;
+			max-width: 610px;
+			width: 100%;
+		}
+		.nhswinter_tracker_form_container_right {
+			display: block;
+			float: right;
+			max-width: 305px;
+			margin: 0;
+		}
+	}
+	.nhswinter_tracker_form {
+		max-width: 630px;
+	}
+	.nhswinter_tracker_overview ul li{
+		display: inline-block;
+		max-width: 31%;
+	}
+}

@@ -1,0 +1,95 @@
+.nhswinter_tracker_rhs_module {
+	width: 304px;
+	margin-top: 10px;
+
+	img {
+		margin: 0 0 5px;
+	}
+
+	.nhswinter_tracker_form {
+		width: 270px; /* accounts for the padding */
+		float: none;
+		
+		label {
+			padding-bottom: 17px;
+		}
+
+		input.nhswinter_tracker_form_input_postcode, input.nhswinter_tracker_form_input_hospital {
+			float: none;
+			display: block;
+			width: 90%;
+			margin: 10px 0;
+		}
+
+		button {
+			float: none;
+		}
+	}
+
+}
+
+@include respondMinMax(0px, 675px) {
+	.nhswinter_tracker_cta, .nhswinter_tracker_gi {
+		visibility: hidden;
+	}
+}
+
+
+@include respondMinMax(676px, false) {
+	.nhswinter_tracker_gi {
+		font-family: arial, sans-serif;
+		background-color: #E8E8E8;
+		padding: 10px 15px 10px 10px;
+
+		h1 {
+			color: #404040;
+			font-size: 24px;
+			margin-bottom: 15px;
+			font-weight: bold;
+		}
+
+
+		ul li {
+			width: 100%;
+			margin-bottom: 13px;
+
+			a {
+				color: #1F4F82;
+				font-size: 18px;
+				font-weight: bold;
+				text-decoration: none;
+			}
+			p {
+				color: #404040;
+				font-weight: normal;
+				font-size: 16px;
+			}
+		}
+	}
+
+	.nhswinter_tracker_cta {
+		display: none;
+		width: 300px;
+		text-align: center;
+
+		h1 {
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		p {
+			line-height: 25px;
+			font-size: 16px;
+		}
+
+		.nhswinter_tracker_cta_arrow {
+			background-image: url($path + '/new_sprite_desktop.png');
+			width: 100px;
+			height: 30px;
+			background-position: -15px -1393px;
+			background-repeat: no-repeat;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
