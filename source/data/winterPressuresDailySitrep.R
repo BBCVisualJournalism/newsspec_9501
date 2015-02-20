@@ -142,6 +142,6 @@ englandWeeklySitreps <- englandWeeklySitreps[,-1]
 englandJson <- toJSON(englandWeeklySitreps)
 write(englandJson, paste(weekWorkingDirectory, '/weekly_england_sitrep.json', sep=''))
 
-write.csv(weekDataSet, paste('wee0_unmerge/fordatacheck/current-week-dataset.csv', sep=''))
+write.csv(weekDataSet, paste(weekWorkingDirectory, '/editorial_data_check.csv', sep=''))
 
 

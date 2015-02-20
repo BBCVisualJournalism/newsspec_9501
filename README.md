@@ -1,5 +1,19 @@
 # Newsspec-9501
 
+## Getting started
+
+Set up the project
+
+```
+grunt
+```
+
+Make images responsive
+
+```
+grunt images
+```
+
 [NHS Winter Tracker 2014-15](http://www.bbc.co.uk/nhswinter)
 An data driven interactive created to provide insight and context to the debate around pressures in emergency care provision by the NHS during winter months. The data is obtained from various NHS bodies including NHS England (see data sources section). The dataset is updated weekly.
 Users use a postcode search facility which returns their nearest major A&E department in England and they will be able to see it compared against other A&E on a number of variables including England Averages.
@@ -35,7 +49,7 @@ Note: you will have to restart your R-session for R to pick up or drop this sett
 
 ## Run an update
 Update the data config object (./source/data)
-```json
+```js
 {
     "weekIndex": 14,
     "data": {
@@ -77,6 +91,7 @@ Sets the week index and data source urls and executes dataextract.R script which
 
 ## JS Updates
 The graphs on the results page have dates showing when the tracker began and the date of the current week. 
+Update the values of "WINTER_PRESSURES_END_DATE", and "AEWEEKLY_SITREPS_END_DATE" variables
 
 ```
 WINTER_PRESSURES_START_DATE = "(3-9 Nov)",
@@ -85,19 +100,43 @@ WINTER_PRESSURES_END_DATE = "(29 Dec - 4 Jan)",
 AEWEEKLY_SITREPS_END_DATE = "(29 Dec - 4 Jan)";
 ```
 
-## Getting started
+## Cross checking weekly data with editorial
+This is a two step process.
 
-Set up the project
+### confirm total number of trusts meeting target
+Update your project config so the whichEnv" property has a value "local"
+```js
+"whichEnv":       "live",
+```
 
+Build the project 
 ```
 grunt
 ```
 
-Make images responsive
+Check the project on local (using a modern browser), ensure figures on landing page are correct and arrows pointing in right direction. If not check your "data config file" as discussed in "Run an update" section
+
+If you enter a valid English postcode, the key for the performance bar chart will tell you how many missed target and how many hit the target. Report these figures to editorial
+
+### confirmation dataset
+You will need to send the "editorial_data_check.csv" file to editorial. The file is in the current week's folder
+```
+./source/data/week<weekIndex>/editorial_data_check.csv
+```
+
+## Update editorial text
+Check with editorial if analysis text has been updated and run "make_vocabs" task
 
 ```
-grunt images
+grunt make_vocabs
 ```
+
+## Deploy to stage
+build and ftp to stage (ps/ this is 2014 project so you will need to remember to include --y 2014 flag when ftp'ing to stage)
+
+When editorial have confirmed stage is ok, deploy to live
+
+
 
 Build World Service version
 
