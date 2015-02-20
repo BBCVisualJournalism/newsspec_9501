@@ -49,8 +49,13 @@ Note: you will have to restart your R-session for R to pick up or drop this sett
 
 ## Run an update
 Update the data config object (./source/data)
+
+- Update weekIndex
+- Add config for week in data object i.e. week14: {}
+
 ```js
 {
+    // update week index
     "weekIndex": 14,
     "data": {
         "week14": {
@@ -106,6 +111,7 @@ This is a two step process.
 ### confirm total number of trusts meeting target
 Update your project config so the whichEnv" property has a value "local"
 ```js
+// in file ./config.json
 "whichEnv":       "live",
 ```
 
@@ -132,10 +138,9 @@ grunt make_vocabs
 ```
 
 ## Deploy to stage
-build and ftp to stage (ps/ this is 2014 project so you will need to remember to include --y 2014 flag when ftp'ing to stage)
+build and ftp to stage (ps/ this is 2014 project so you will need to remember to include --y 2014 flag when ftp'ing to stage), also update ./config.json to set "whichEnv" to "stage"
 
-When editorial have confirmed stage is ok, deploy to live
-
+When editorial have confirmed stage is ok, deploy to live (update "whichEnv" flag)
 
 
 Build World Service version
