@@ -1,0 +1,141 @@
+"","name","attendances_at_ane","patients_waiting_over_4hrs_tobe_admitted","patients_seen_in_four_hours","emergency_admissions","trolley_wait_4_to_12hrs","ambulances_queuing","planned_operations","beds_blocked","beds_closed_dueto_norovirus"
+"R1F","Isle Of Wight NHS Trust",770,199,74.2,142,0,32,10,72,0
+"R1H","Barts Health NHS Trust",5855,765,86.9,1694,0,16,0,205,135
+"R1K","London North West Healthcare NHS Trust",2481,689,72.2,1018,2,245,6,112,6
+"RA2","Royal Surrey County Hospital NHS Foundation Trust",1125,57,94.9,385,0,49,3,118,0
+"RA3","Weston Area Health NHS Trust",996,183,81.6,210,0,0,0,87,104
+"RA4","Yeovil District Hospital NHS Foundation Trust",877,43,95.1,330,0,2,0,114,76
+"RA7","University Hospitals Bristol NHS Foundation Trust",1916,219,88.6,571,0,18,15,349,4
+"RA9","South Devon Healthcare NHS Foundation Trust",1421,282,80.2,559,0,24,11,21,0
+"RAE","Bradford Teaching Hospitals NHS Foundation Trust",2382,78,96.7,561,0,4,9,0,0
+"RAJ","Southend University Hospital NHS Foundation Trust",1687,83,95.1,524,0,36,10,63,0
+"RAL","Royal Free London NHS Foundation Trust",4149,93,97.8,706,0,57,4,145,0
+"RAP","North Middlesex University Hospital NHS Trust",3469,410,88.2,448,0,56,6,94,0
+"RAS","The Hillingdon Hospitals NHS Foundation Trust",1066,197,81.5,445,0,46,3,8,50
+"RAX","Kingston Hospital NHS Foundation Trust",1887,154,91.8,348,0,0,3,68,5
+"RBA","Taunton And Somerset NHS Foundation Trust",1086,57,94.8,340,0,17,4,190,172
+"RBD","Dorset County Hospital NHS Foundation Trust",798,75,90.6,302,0,28,5,136,0
+"RBK","Walsall Healthcare NHS Trust",1480,379,74.4,447,0,56,0,146,0
+"RBL","Wirral University Teaching Hospital NHS Foundation Trust",1646,366,77.8,552,0,71,11,22,0
+"RBN","St Helens And Knowsley Hospitals NHS Trust",1930,117,93.9,766,0,21,6,21,0
+"RBS","Alder Hey Children's NHS Foundation Trust",1110,31,97.2,141,0,0,1,0,0
+"RBT","Mid Cheshire Hospitals NHS Foundation Trust",1183,303,74.4,379,0,0,3,81,188
+"RBZ","Northern Devon Healthcare NHS Trust",799,183,77.1,280,0,51,1,52,4
+"RC1","Bedford Hospital NHS Trust",1263,38,97,338,0,22,0,35,0
+"RC9","Luton And Dunstable University Hospital NHS Foundation Trust",1840,47,97.4,614,0,59,1,79,4
+"RCB","York Teaching Hospital NHS Foundation Trust",2375,200,91.6,637,0,25,26,164,181
+"RCD","Harrogate And District NHS Foundation Trust",792,41,94.8,180,0,0,4,19,2
+"RCF","Airedale NHS Foundation Trust",987,49,95,247,0,8,2,44,0
+"RCU","Sheffield Children's NHS Foundation Trust",1064,17,98.4,195,0,0,3,0,0
+"RCX","The Queen Elizabeth Hospital, King's Lynn, NHS Foundation Trust",1057,95,91,373,0,38,5,90,100
+"RD1","Royal United Hospitals Bath NHS Foundation Trust",1300,226,82.6,492,0,1,19,107,588
+"RD3","Poole Hospital NHS Foundation Trust",1219,162,86.7,408,0,71,12,155,4
+"RD8","Milton Keynes Hospital NHS Foundation Trust",1541,317,79.4,313,0,53,17,207,0
+"RDD","Basildon And Thurrock University Hospitals NHS Foundation Trust",2373,251,89.4,484,0,0,4,71,0
+"RDE","Colchester Hospital University NHS Foundation Trust",1408,330,76.6,407,0,208,3,79,0
+"RDU","Frimley Health NHS Foundation Trust",4104,262,93.6,1342,0,101,7,220,0
+"RDZ","The Royal Bournemouth And Christchurch Hospitals NHS Foundation Trust",1270,169,86.7,395,0,16,6,108,6
+"RE9","South Tyneside NHS Foundation Trust",1113,242,78.3,241,0,11,0,13,0
+"REF","Royal Cornwall Hospitals NHS Trust",1161,392,66.2,478,0,74,17,278,28
+"REM","Aintree University Hospital NHS Foundation Trust",1529,191,87.5,612,0,24,3,4,98
+"RF4","Barking, Havering And Redbridge University Hospitals NHS Trust",4166,409,90.2,1002,0,66,25,50,30
+"RFF","Barnsley Hospital NHS Foundation Trust",1420,23,98.4,391,0,3,1,21,0
+"RFR","The Rotherham NHS Foundation Trust",1434,49,96.6,327,0,0,0,60,0
+"RFS","Chesterfield Royal Hospital NHS Foundation Trust",1321,83,93.7,400,0,18,5,49,2
+"RFW","West Middlesex University Hospital NHS Trust",1121,102,90.9,446,0,13,0,48,48
+"RGN","Peterborough And Stamford Hospitals NHS Foundation Trust",1524,265,82.6,509,0,29,22,204,0
+"RGP","James Paget University Hospitals NHS Foundation Trust",1267,114,91,237,0,12,0,202,74
+"RGQ","Ipswich Hospital NHS Trust",1574,78,95,453,0,4,9,82,0
+"RGR","West Suffolk NHS Foundation Trust",1271,135,89.4,401,0,42,0,23,0
+"RGT","Cambridge University Hospitals NHS Foundation Trust",1952,490,74.9,684,0,105,0,382,6
+"RH8","Royal Devon And Exeter NHS Foundation Trust",2006,202,89.9,607,0,17,24,361,168
+"RHM","University Hospital Southampton NHS Foundation Trust",1728,351,79.7,620,7,13,25,331,116
+"RHQ","Sheffield Teaching Hospitals NHS Foundation Trust",2194,275,87.5,595,0,28,6,395,0
+"RHU","Portsmouth Hospitals NHS Trust",1829,635,65.3,710,3,241,16,35,0
+"RHW","Royal Berkshire NHS Foundation Trust",1833,234,87.2,537,0,1,4,181,0
+"RJ1","Guy's And St Thomas' NHS Foundation Trust",2731,316,88.4,684,0,0,0,58,1
+"RJ2","Lewisham And Greenwich NHS Trust",4117,447,89.1,1002,0,6,1,23,70
+"RJ6","Croydon Health Services NHS Trust",1325,203,84.7,568,0,14,5,22,0
+"RJ7","St George's Healthcare NHS Foundation Trust",2766,381,86.2,737,0,0,1,50,13
+"RJC","South Warwickshire NHS Foundation Trust",1022,126,87.7,360,0,35,3,89,6
+"RJE","University Hospitals Of North Midlands NHS Trust",2274,824,63.8,834,9,88,10,294,316
+"RJF","Burton Hospitals NHS Foundation Trust",1102,38,96.6,334,0,1,0,93,0
+"RJL","Northern Lincolnshire And Goole NHS Foundation Trust",2252,253,88.8,582,0,0,9,136,26
+"RJN","East Cheshire NHS Trust",798,128,84,210,0,4,4,179,0
+"RJR","Countess Of Chester Hospital NHS Foundation Trust",1273,153,88,387,0,1,7,126,0
+"RJZ","King's College Hospital NHS Foundation Trust",3947,893,77.4,1021,1,170,14,109,16
+"RK5","Sherwood Forest Hospitals NHS Foundation Trust",1718,319,81.4,610,0,193,6,192,12
+"RK9","Plymouth Hospitals NHS Trust",1767,385,78.2,597,0,16,4,123,24
+"RKB","University Hospitals Coventry And Warwickshire NHS Trust",2608,631,75.8,805,0,176,33,471,0
+"RKE","The Whittington Hospital NHS Trust",1655,173,89.5,321,0,0,0,38,0
+"RL4","The Royal Wolverhampton NHS Trust",2131,141,93.4,528,0,32,30,157,0
+"RLN","City Hospitals Sunderland NHS Foundation Trust",1568,216,86.2,562,0,29,8,19,54
+"RLQ","Wye Valley NHS Trust",946,285,69.9,224,0,66,9,47,208
+"RLT","George Eliot Hospital NHS Trust",1202,150,87.5,290,0,12,3,153,0
+"RM1","Norfolk And Norwich University Hospitals NHS Foundation Trust",1888,253,86.6,615,0,79,22,294,0
+"RM2","University Hospital Of South Manchester NHS Foundation Trust",1773,195,89,591,0,21,16,39,100
+"RM3","Salford Royal NHS Foundation Trust",1767,20,98.9,623,0,1,5,189,0
+"RMC","Bolton NHS Foundation Trust",2108,288,86.3,488,0,80,13,140,24
+"RMP","Tameside Hospital NHS Foundation Trust",1485,99,93.3,413,0,5,1,139,0
+"RN3","Great Western Hospitals NHS Foundation Trust",1489,262,82.4,482,6,70,20,165,127
+"RN5","Hampshire Hospitals NHS Foundation Trust",1826,146,92,421,0,19,0,279,84
+"RN7","Dartford And Gravesham NHS Trust",1858,106,94.3,545,0,33,5,61,0
+"RNA","The Dudley Group NHS Foundation Trust",1809,58,96.8,585,0,50,9,116,8
+"RNL","North Cumbria University Hospitals NHS Trust",1526,357,76.6,375,3,89,17,23,305
+"RNQ","Kettering General Hospital NHS Foundation Trust",1481,265,82.1,409,0,141,37,248,52
+"RNS","Northampton General Hospital NHS Trust",1865,469,74.9,563,0,121,23,489,0
+"RNZ","Salisbury NHS Foundation Trust",803,13,98.4,225,0,0,4,137,0
+"RP5","Doncaster And Bassetlaw Hospitals NHS Foundation Trust",2547,318,87.5,591,0,118,4,61,0
+"RPA","Medway NHS Foundation Trust",1943,420,78.4,276,0,55,0,59,0
+"RQ3","Birmingham Children's Hospital NHS Foundation Trust",1102,29,97.4,240,0,8,8,2,0
+"RQ6","Royal Liverpool And Broadgreen University Hospitals NHS Trust",1708,111,93.5,578,0,24,8,42,7
+"RQ8","Mid Essex Hospital Services NHS Trust",1556,289,81.4,408,0,137,13,144,0
+"RQM","Chelsea And Westminster Hospital NHS Foundation Trust",2258,49,97.8,313,0,14,0,70,0
+"RQQ","Hinchingbrooke Health Care NHS Trust",829,121,85.4,217,0,0,4,106,14
+"RQW","The Princess Alexandra Hospital NHS Trust",1751,233,86.7,436,0,84,0,138,64
+"RQX","Homerton University Hospital NHS Foundation Trust",2360,180,92.4,326,0,0,0,72,16
+"RR1","Heart Of England NHS Foundation Trust",4651,759,83.7,1502,1,134,18,305,14
+"RR7","Gateshead Health NHS Foundation Trust",1688,100,94.1,451,0,0,11,102,0
+"RR8","Leeds Teaching Hospitals NHS Trust",3820,142,96.3,1378,0,8,11,301,0
+"RRF","Wrightington, Wigan And Leigh NHS Foundation Trust",1599,14,99.1,485,0,18,7,17,28
+"RRK","University Hospitals Birmingham NHS Foundation Trust",1936,106,94.5,592,0,87,17,359,5
+"RRV","University College London Hospitals NHS Foundation Trust",2563,221,91.4,386,0,30,11,145,0
+"RTD","The Newcastle Upon Tyne Hospitals NHS Foundation Trust",2194,178,91.9,495,0,3,2,105,24
+"RTE","Gloucestershire Hospitals NHS Foundation Trust",2219,579,73.9,718,0,75,31,73,436
+"RTF","Northumbria Healthcare NHS Foundation Trust",2629,75,97.1,956,0,41,5,0,54
+"RTG","Derby Hospitals NHS Foundation Trust",2322,121,94.8,799,0,204,2,120,48
+"RTH","Oxford University Hospitals NHS Trust",2273,311,86.3,630,0,28,75,694,0
+"RTK","Ashford And St Peter's Hospitals NHS Foundation Trust",1664,129,92.2,459,0,12,18,53,0
+"RTP","Surrey And Sussex Healthcare NHS Trust",1661,157,90.5,552,0,78,11,85,0
+"RTR","South Tees Hospitals NHS Foundation Trust",2332,234,90,482,0,23,15,307,6
+"RTX","University Hospitals Of Morecambe Bay NHS Foundation Trust",1648,85,94.8,515,0,66,14,90,17
+"RVJ","North Bristol NHS Trust",1556,356,77.1,598,1,103,29,540,0
+"RVR","Epsom And St Helier University Hospitals NHS Trust",2600,113,95.7,622,0,12,2,88,0
+"RVV","East Kent Hospitals University NHS Foundation Trust",2739,558,79.6,834,0,83,4,229,0
+"RVW","North Tees And Hartlepool NHS Foundation Trust",1239,84,93.2,314,0,0,4,80,124
+"RVY","Southport And Ormskirk Hospital NHS Trust",861,123,85.7,335,0,18,6,46,3
+"RW3","Central Manchester University Hospitals NHS Foundation Trust",2882,133,95.4,836,0,27,15,169,0
+"RW6","Pennine Acute Hospitals NHS Trust",4820,501,89.6,1246,0,58,27,112,0
+"RWA","Hull And East Yorkshire Hospitals NHS Trust",2086,638,69.4,671,0,161,22,107,144
+"RWD","United Lincolnshire Hospitals NHS Trust",2875,574,80,716,0,310,32,256,18
+"RWE","University Hospitals Of Leicester NHS Trust",2476,633,74.4,779,0,254,14,276,0
+"RWF","Maidstone And Tunbridge Wells NHS Trust",2378,274,88.5,691,0,37,9,147,72
+"RWG","West Hertfordshire Hospitals NHS Trust",1597,296,81.5,572,0,168,10,283,0
+"RWH","East And North Hertfordshire NHS Trust",1911,239,87.5,647,0,34,10,53,152
+"RWJ","Stockport NHS Foundation Trust",1679,276,83.6,560,0,40,8,78,0
+"RWP","Worcestershire Acute Hospitals NHS Trust",2225,530,76.2,630,0,176,36,544,0
+"RWW","Warrington And Halton Hospitals NHS Foundation Trust",1567,420,73.2,382,0,43,12,85,152
+"RWY","Calderdale And Huddersfield NHS Foundation Trust",2553,187,92.7,546,0,4,1,108,253
+"RX1","Nottingham University Hospitals NHS Trust",3266,519,84.1,856,0,215,12,245,184
+"RXC","East Sussex Healthcare NHS Trust",1854,98,94.7,490,0,0,0,133,0
+"RXF","Mid Yorkshire Hospitals NHS Trust",4219,347,91.8,980,0,44,3,220,39
+"RXH","Brighton And Sussex University Hospitals NHS Trust",2501,654,73.9,858,0,231,28,181,479
+"RXK","Sandwell And West Birmingham Hospitals NHS Trust",2966,517,82.6,808,0,41,5,183,0
+"RXL","Blackpool Teaching Hospitals NHS Foundation Trust",1494,174,88.4,408,0,24,5,154,217
+"RXN","Lancashire Teaching Hospitals NHS Foundation Trust",2282,111,95.1,472,0,0,0,227,0
+"RXP","County Durham And Darlington NHS Foundation Trust",2395,486,79.7,724,0,105,15,74,26
+"RXQ","Buckinghamshire Healthcare NHS Trust",1403,190,86.5,525,0,10,0,68,0
+"RXR","East Lancashire Hospitals NHS Trust",1963,117,94,718,0,102,24,296,72
+"RXW","Shrewsbury And Telford Hospital NHS Trust",2028,383,81.1,445,0,57,13,181,52
+"RYJ","Imperial College Healthcare NHS Trust",2131,449,78.9,690,0,0,68,90,28
+"RYR","Western Sussex Hospitals NHS Foundation Trust",2503,156,93.8,808,0,35,3,168,2
