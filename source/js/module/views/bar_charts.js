@@ -15,8 +15,8 @@ define(["lib/news_special/bootstrap"],  function (news) {
         that,
         WINTER_PRESSURES_START_DATE = "(3-9 Nov)",
         AEWEEKLY_SITREPS_START_DATE = "(3-9 Nov)",
-        WINTER_PRESSURES_END_DATE = "(9-15 Feb)",
-        AEWEEKLY_SITREPS_END_DATE = "(9-15 Feb)";
+        WINTER_PRESSURES_END_DATE = "(23 Feb - 1 Mar)",
+        AEWEEKLY_SITREPS_END_DATE = "(23 Feb - 1 Mar)";
 
     var BarChart = function () {
         that = this;
