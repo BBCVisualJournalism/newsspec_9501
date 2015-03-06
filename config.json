@@ -1,6 +1,6 @@
 {
   "debug":          "false",
-  "whichEnv":       "live",
+  "whichEnv":       "local",
   "project_number": "9501",
   "year":           "2014",
   "imageWidths":    ["320", "640", "1024"],
