@@ -1,6 +1,16 @@
 {
-    "weekIndex": 15,
+    "weekIndex": 16,
     "data": {
+        "week16": {
+            "weeklyAeSitrepDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/04/2015.02.22-AEOCUrg.xls",
+            "winterPressuresDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/12/DailySR-Web-file-WE-22.02.15.xlsx",
+            "barchartsDates": "16-22 Feb",
+            "patientsSeenIn4HrsMajorAE": "87.7%",
+            "dirPatientsSeenIn4HrsMajorAE": "up",
+            "patientsSeenIn4HrsAllAE": "92.0%",
+            "dirPatientsSeenIn4HrsAllAE": "up",
+            "excludedFromPerformanceChart": []
+        },
         "week15": {
             "weeklyAeSitrepDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/04/2015.02.15-AEmh8mg.xls",
             "winterPressuresDataUrl": "http://www.england.nhs.uk/statistics/wp-content/uploads/sites/2/2014/12/DailySR-Web-file-WE-15.02.15.xlsx",
