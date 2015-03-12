@@ -148,6 +148,19 @@ Build World Service version
 ```
 grunt translate
 ```
+## Push the changes to git
+
+After an update push the changes to git
+
+## Troubleshooting
+
+* Incorrect data after update
+
+Check that a week's index has not been missed. If so, you will need to update for the missed week as well as the current. Obtain the missed week data from the NHS website and the missing details from the current live page. Be sure to commit after the update. If issues remain re check the steps detailed in the run an update section.
+
+* PHP datacompiler fails to execute
+
+Check PHP is installed correctly, double check PHP/R versions.
 
 ## iFrame scaffold
 
