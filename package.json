@@ -5,7 +5,7 @@
     "url": "http://github.com/BBCVisualJournalism/newsspec_9501"
   },
   "description":    "NHS Winter Tracker 2014-15",
-  "version":        "0.1.525",
+  "version":        "0.1.542",
   "devDependencies": {
     "grunt":                            "~0.4.0",
     "grunt-cli":                        "~0.1.11",

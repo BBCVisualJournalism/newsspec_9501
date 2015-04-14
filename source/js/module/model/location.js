@@ -18,7 +18,7 @@ define(['lib/news_special/bootstrap', 'data/id_mapping', 'module/controller/erro
                 dataType: 'jsonp',
                 success: function (data) {
 
-                    if (data.response.type === 'details' && data.response.metadata.location.admin1.name === 'England') {
+                    if (data.response.type === 'details' && (data.response.metadata.location.admin1.name === 'United Kingdom' || data.response.metadata.location.admin1.name === 'England')) {
 
                         for (var i = 0; i < data.response.content.details.details.length; i++) {
 
